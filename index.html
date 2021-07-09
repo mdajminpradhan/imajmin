@@ -147,7 +147,28 @@
 		<p> From ideation to creation, here are some applications that I have developed </p>
 
 		<div class="container">
-			<div class="portfolio__buttons">
+
+			<div class="controls">
+				<button type="button" class="control" data-filter="all">All</button>
+				<button type="button" class="control" data-filter=".reactjs">
+				  ReactJS
+				</button>
+				<button type="button" class="control" data-filter=".nextjs">
+				  NodeJS
+				</button>
+				<button type="button" class="control" data-filter=".website">
+					CMS Theme
+				</button>
+				<button type="button" class="control" data-filter=".landingpage">
+					Static Website				
+				</button>
+				<button type="button" class="control" data-filter=".htmlandcss">
+					React Native
+				</button>
+			  </div>
+
+
+			<!-- <div class="portfolio__buttons">
 				<ul>
 					<li>All</li>
 					<li>ReactJS</li>
@@ -157,7 +178,7 @@
 					<li>Static Website</li>
 					<li>React Native</li>
 				</ul>
-			</div>
+			</div> -->
 			<div class="portfolios__container">
 				<div class="portfolio">
 					<div class="portfolio__header">
@@ -480,7 +501,13 @@
 
 
 	<!-- custom js linked here -->
+	<script src="./assets/js/mixitup.min.js"></script>
 	<script src="./assets/js/app.js"></script>
+	<script>
+		var containerEl = document.querySelector(".portfolios__container");
+  
+		var mixer = mixitup(containerEl);
+	  </script>
 </body>
 
 </html>

@@ -28,7 +28,7 @@ input,
 textarea,
 label,
 li,
-a {
+a, button {
 	font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
 		'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -282,12 +282,15 @@ a {
 	}
 
 	.container {
-		ul {
-			li {
-				list-style: none;
-				display: inline-block;
-				margin: 0 1rem;
-				font-weight: 500;
+		.controls {
+			button {
+				background: transparent;
+				color: dodgerblue;
+				font-size: 1rem;
+				border: none;
+				outline: none;
+				margin: 0 .5rem;
+				font-weight: 400;
 				color: rgba(0, 0, 0, 0.8);
 				cursor: pointer;
 				transition: all .5s;
@@ -891,7 +894,7 @@ a {
 				h1 {
 					font-size: 1.3rem !important;
 				}
-  
+
 				p {
 					width: 94%;
 					font-size: .95rem !important;
