@@ -687,7 +687,19 @@ a {
 		.container {
 			.about__right {
 				h1 {
-					font-size: 1.2rem !important;
+					font-size: 1.1rem !important;
+				}
+
+				p {
+					width: 94%;
+					font-size: .9rem !important;
+				}
+
+				ul {
+					li {
+						font-size: .85rem !important;
+						font-weight: 300 !important;
+					}
 				}
 			}
 		}
@@ -878,6 +890,18 @@ a {
 			.about__right {
 				h1 {
 					font-size: 1.3rem !important;
+				}
+
+				p {
+					width: 94%;
+					font-size: .95rem !important;
+				}
+
+				ul {
+					li {
+						font-size: .95rem !important;
+						font-weight: 400 !important;
+					}
 				}
 			}
 		}
