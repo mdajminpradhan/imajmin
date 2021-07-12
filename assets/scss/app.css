@@ -361,7 +361,11 @@ a, button {
   height: auto;
 }
 
-.portfolio p {
+.portfolio a {
+  text-decoration: none;
+}
+
+.portfolio a p {
   color: rgba(0, 0, 0, 0.8);
   margin-top: 1rem;
   font-weight: 500;
